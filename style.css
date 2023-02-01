@@ -1,0 +1,47 @@
+body{
+background-image: url('IMAGE.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+}
+header h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: cursive;
+    margin: auto;
+}
+.container{
+    height:200px;
+    width:400px;
+    margin:auto;
+    text-align: center;
+    font-family: cursive;
+}
+ .button{
+    margin-bottom:20px;
+    padding:10px;
+    width:100px;
+    background-color:brown;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    font-family: cursive;
+    border:1px solid black;
+    border-radius: 20px;
+}
+ img{
+ margin-top:50px;
+ height:300px;
+ width:300px;
+
+}
+.videoWrapper{
+    position: relative;
+    margin-bottom: 300px;
+}
+h5{
+    font-size: bold;
+}
+@media screen and (min-width:500px){
+    text-align: center;
+}
